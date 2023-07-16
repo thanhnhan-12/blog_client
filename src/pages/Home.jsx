@@ -5,7 +5,7 @@ import axios from 'axios';
 const Home = () => {
   const [posts, setPosts] = useState([]);
 
-  const cat = useLocation().search
+  const cat = useLocation().search;
 
   useEffect(() => {
     const fetchData = async () => {
